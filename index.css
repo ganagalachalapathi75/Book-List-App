@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://wallpapercave.com/wp/DFPrImE.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.p-heading {
+    text-align: center;
+    margin: 1rem 0;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+h2 {
+
+    font-size: 25px;
+}
+
+#book-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem;
+}
+
+#book-list li {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+}
+
+#book-list li span {
+    margin-right: 1rem;
+    color: #ffffff;
+    font-size: 22px;
+
+}
+
+#add-book-btn {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* The modal */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #0af7c2;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close-btn {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f70a11;
+}
+
+button {
+    color: #ffffff;
+    background-color: #1306c9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    color: #010003;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
